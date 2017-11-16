@@ -162,26 +162,67 @@ body {
 
 /*/////////////////////// ABOUT ///////////////////////*/
 #about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  font-size: 1.6em;
-  padding: 3em;
-  box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 20px 30px -20px rgba(0, 0, 0, 0.05);
+  padding-top: 2em;
 }
 
 #about img {
-  height: 600px;
-  margin-bottom: 5px;
+  display: block;
+  width: 100vw;
+  min-width: 320px;
+  max-width: 450px;
+  margin: auto;
 }
 
 #about .text {
-  margin-left: 5em;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em;
+}
+
+#about p {
+  margin-bottom: 1.2em;
 }
 
 #about h1 {
-  margin-bottom: 1.2em;
+  margin-bottom: 0.7em;
+}
+
+@media (min-width: 576px){
+  #about img {
+    width: 80vw;
+    max-width: 850px;
+  }
+
+  #about .text {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 992px){
+  #about .text {
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 1250px) {
+  #about {
+    display: flex;
+    align-items: center;
+    padding: 3em;
+  }
+
+  #about img {
+    width: 40vw;
+  }
+
+  #about .text {
+    font-size: 1.1vw;
+    text-align: left;
+    width: 60vw;
+    margin-left: 3em;
+  }
+
 }
 
 /*/////////////////////// FOOTER ///////////////////////*/
