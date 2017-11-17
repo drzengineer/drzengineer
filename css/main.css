@@ -67,10 +67,10 @@ body {
 
 #intro {
   background-attachment: fixed;
-  background-image: url("../images/line_animated.svg");
+  background-position: center;
+  background-image: url("../images/tealBlur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: cyan;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +80,6 @@ body {
 
 #intro .inner {
   text-align: center;
-  margin: 45px auto;
 }
 
 .big_logo {
@@ -99,13 +98,10 @@ body {
   opacity: 0.85;
 }
 
-.continue_arrow {
+.arrow {
+  width: 40px;
   position: absolute;
   bottom: 2em;
-}
-
-.continue_arrow img {
-  width: 40px;
 }
 
 @media (min-width: 576px) {
@@ -125,12 +121,9 @@ body {
     font-size: 1.3em;
   }
 
-  .continue_arrow {
-    bottom: 3em;
-  }
-
-  .continue_arrow img {
+  .arrow {
     width: 45px;
+    bottom: 3em;
   }
 }
 
@@ -151,18 +144,16 @@ body {
     font-size: 1.7em;
   }
 
-  .continue_arrow {
-    bottom: 4.5em;
-  }
-
-  .continue_arrow img {
+  .arrow {
     width: 50px;
+    bottom: 4.5em;
   }
 }
 
 /*/////////////////////// ABOUT ///////////////////////*/
 #about {
-  box-shadow: inset 0px 20px 30px -20px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 0px 30px -20px rgba(0, 0, 0, 0.05);
+  background-color: #fefefe;
   padding-top: 2em;
 }
 
@@ -181,7 +172,7 @@ body {
 }
 
 #about p {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.1em;
 }
 
 #about h1 {
