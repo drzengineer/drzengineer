@@ -152,14 +152,13 @@ body {
 
 /*/////////////////////// ABOUT ///////////////////////*/
 #about {
-  box-shadow: inset 0px 0px 30px -20px rgba(0, 0, 0, 0.05);
   background-color: #fefefe;
   padding-top: 2em;
 }
 
 #about img {
   display: block;
-  width: 100vw;
+  width: 100%;
   min-width: 320px;
   max-width: 450px;
   margin: auto;
@@ -214,6 +213,51 @@ body {
     margin-left: 3em;
   }
 
+}
+
+/*/////////////////////// TECH //////////////////////////*/
+
+#tech {
+  background-color: #f4f4f4;
+  padding: 3em 0em 3em;
+}
+
+#tech .text {
+  text-align: left;
+  font-size: .85em;
+  margin-left: 2em;
+}
+
+.carousel {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  margin-top: 3em;
+  overflow: hidden;
+}
+
+.carousel_item {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+@media (min-width: 576px) {
+  #tech .text{
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 992px) {
+  #tech .text{
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 1250px) {
+  #tech .text{
+    font-size: 1.1vw;
+  }
 }
 
 /*/////////////////////// FOOTER ///////////////////////*/
