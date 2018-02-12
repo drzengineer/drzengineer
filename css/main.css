@@ -233,9 +233,19 @@ body {
 }
 
 #tech .text {
-  text-align: left;
+  text-align: center;
   font-size: .85em;
-  margin-left: 2em;
+}
+
+#tech h1 {
+  margin-bottom: .7em;
+}
+
+#tech p {
+  width: 35%;
+  margin: auto;
+  padding-bottom: .7em;
+  border-bottom: 2px solid #222228;
 }
 
 .carousel {
