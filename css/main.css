@@ -5,6 +5,11 @@
 
 body {
   min-width: 320px;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/tealBlur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*/////////////////////// NAVIGATION ///////////////////////*/
@@ -75,11 +80,6 @@ body {
 /*/////////////////////// INTRO ///////////////////////*/
 
 #intro {
-  background-attachment: fixed;
-  background-position: center;
-  background-image: url("../images/tealBlur.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,6 +230,7 @@ body {
 #tech {
   background-color: #f4f4f4;
   padding: 3em 0em 3em;
+  border-bottom: 1px solid #ddd;
 }
 
 #tech .text {
@@ -242,10 +243,10 @@ body {
 }
 
 #tech p {
-  width: 35%;
+  width: 85%;
   margin: auto;
   padding-bottom: .7em;
-  border-bottom: 2px solid #222228;
+  border-bottom: 2px solid #999;
 }
 
 .carousel {
@@ -266,17 +267,29 @@ body {
   #tech .text{
     font-size: 1.3em;
   }
+
+  #tech p {
+    width: 75%;
+  }
 }
 
 @media (min-width: 992px) {
   #tech .text{
     font-size: 1.6em;
   }
+
+  #tech p {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1250px) {
   #tech .text{
     font-size: 1.1vw;
+  }
+
+  #tech p {
+    width: 30%;
   }
 }
 
@@ -288,6 +301,7 @@ body {
   text-align: center;
   cursor: default;
   padding: 5em 0em 2em;
+  margin-top: 10em;
 }
 
 .icons {
