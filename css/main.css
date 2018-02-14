@@ -14,81 +14,54 @@ body {
 
 /*/////////////////////// NAVIGATION ///////////////////////*/
 
-.nav_background {
-  background-color: #222228;
-}
-
-.center_nav {
+#nav {
   font-family: 'Mitr', sans-serif;
   font-size: 1.4em;
   color: #ffffff;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #222228;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
-.pointer {
+.nav_menu {
+  display: flex;
+  align-items: center;
+  margin-right: 10%
+}
+
+.nav_item {
+  padding: 0 25px;
   cursor: pointer;
   transition: color .5s ease;
 }
 
-.pointer:hover{
+.nav_item:hover{
   color: cyan;
 }
 
-.logo {
+#logo_nav {
   width: 50px;
+  height: 57px;
+  cursor: pointer;
+  margin-left: 15%;
 }
 
-.line {
-  margin-top: .65em;
-  border-top: 1px solid cyan;
-  margin-bottom: .4em;
-}
 
-.name {
-  font-family: 'Michroma', sans-serif;
-  font-size: 11px;
-  background-color: #222228;
-  width: 125px;
-  margin: auto;
-  margin-top: -10px;
-}
-
-@media (min-width: 992px) {
-  .center_nav .col-md-1,
-  .center_nav .col-sm-1,
-  .center_nav .col-lg-1 {
-    flex: 0 0 14.285714285714285714285714285714%;
-    max-width: 14.285714285714285714285714285714%;
-  }
-
-  .push_down {
-    align-self: flex-end;
-    top: 14px;
-  }
-
-  .left_nav {
-    text-align: left;
-  }
-
-  .right_nav {
-    text-align: right;
-  }
-}
 
 /*/////////////////////// INTRO ///////////////////////*/
 
 #intro {
+  height: 100vh;
+  min-height: 640px;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  min-height: 600px;
-}
-
-#intro .inner {
-  text-align: center;
 }
 
 .big_logo {
@@ -107,17 +80,20 @@ body {
   opacity: 0.85;
 }
 
+.arrow_box {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 #arrow {
   width: 40px;
-  position: absolute;
-  bottom: 2em;
   cursor: pointer;
+  margin-bottom: 4em;
 }
 
 @media (min-width: 576px) {
-  #intro {
-    height: Calc(100vh - 198px);
-  }
 
   .big_logo {
     width: 160px;
@@ -133,14 +109,10 @@ body {
 
   #arrow {
     width: 45px;
-    bottom: 3em;
   }
 }
 
 @media (min-width: 992px) {
-  #intro {
-    height: Calc(100vh - 136px);
-  }
 
   .big_logo {
     width: 200px;
@@ -156,9 +128,10 @@ body {
 
   #arrow {
     width: 50px;
-    bottom: 4.5em;
   }
 }
+
+
 
 /*/////////////////////// ABOUT ///////////////////////*/
 #about {
