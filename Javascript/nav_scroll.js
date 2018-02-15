@@ -1,10 +1,10 @@
 var navScroll = document.getElementsByClassName('nav_scroll')
 
 for(var i = 0; i < navScroll.length; i++){
-  navScroll[i].addEventListener('click', scroll, false);
+  navScroll[i].addEventListener('click', scroll_to, false);
 }
 
-function scroll(e){
+function scroll_to(e){
 
   var element = '';
 
@@ -33,13 +33,29 @@ function scroll(e){
 
   element = element.getBoundingClientRect();
 
-  var navSize = document.getElementById('nav');
-  navSize = navSize.getBoundingClientRect();
-
-  var scroll = element.top - navSize.height;
+  var scroll = element.top - 70;
 
   window.scrollBy({
     top: scroll,
     behavior: 'smooth'
   });
 }
+
+var navToggle = false;
+
+window.onscroll = function () {
+  if (window.pageYOffset > 120 && navToggle == false) {
+    // do dat thang
+    document.getElementById('nav').style.height = 70 + 'px';
+    document.getElementById('nav').style.opacity = '1';
+    document.getElementById('nav').style.backgroundColor = '#222228';
+    navToggle = true;
+  }
+  else if (window.pageYOffset <= 120 && navToggle == true){
+    // do dat dang that
+    document.getElementById('nav').style.height = 120 + 'px';
+    document.getElementById('nav').style.opacity = '.4';
+    document.getElementById('nav').style.backgroundColor = 'transparent';
+    navToggle = false;
+  }
+};
