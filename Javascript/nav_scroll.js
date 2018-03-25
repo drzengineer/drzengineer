@@ -39,6 +39,8 @@ function scroll_to(e){
     top: scroll,
     behavior: 'smooth'
   });
+
+  resetMenu();
 }
 
 var navToggle = false;

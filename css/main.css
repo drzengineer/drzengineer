@@ -17,25 +17,28 @@ body {
 #nav {
   font-family: 'Mitr', sans-serif;
   font-size: 1.3em;
+  height: 120px;
+  width: 100%;
+  opacity: .4;
+  background-color: transparent;
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: transparent;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100%;
+  -webkit-transform: height .5s, opacity .5s, background-color .5s;
   transition: height .5s, opacity .5s, background-color .5s;
-  opacity: .4;
-  height: 120px;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .nav_menu {
+  display: -webkit-flex;
   display: flex;
   align-items: center;
-  margin-right: 15%
+  margin-right: 15%;
 }
 
 .nav_item {
@@ -48,6 +51,11 @@ body {
   color: cyan;
 }
 
+#nav_button {
+  font-size: 1.5em;
+  display: none;
+}
+
 #logo_nav {
   width: 44px;
   height: 50px;
@@ -55,13 +63,49 @@ body {
   margin-left: 20%;
 }
 
+@media (max-width: 992px) {
 
+  .nav_item {
+    display: none;
+  }
+
+  .nav_menu {
+    margin-right: 0px;
+  }
+
+  #nav_button {
+    display: block;
+  }
+
+  #logo_nav {
+    margin-left: 25px;
+  }
+
+  .expand {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #222228;
+  }
+
+  .expand div {
+    display: block;
+    align-self: flex-end;
+    margin: 8px 0;
+  }
+
+  .expand #nav_button {
+    margin-top: 15px;
+  }
+}
 
 /*/////////////////////// INTRO ///////////////////////*/
 
 #intro {
   height: 100vh;
   min-height: 640px;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -86,6 +130,7 @@ body {
 
 .arrow_box {
   height: 35%;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -184,6 +229,7 @@ body {
 
 @media (min-width: 1250px) {
   #about {
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     padding: 3em;
