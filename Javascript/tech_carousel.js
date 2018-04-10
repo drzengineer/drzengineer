@@ -6,7 +6,7 @@ var pos = [];
 for (var i = 0; i < items.length; i++){
   items[i].style.left = start + 'px';
   pos.push(start);
-  start+= 300;
+  start+= 275;
 }
 
 setInterval(slider, 10);
@@ -14,8 +14,8 @@ setInterval(slider, 10);
 function slider() {
 
   for (var i = 0; i < items.length; i++){
-    if (items[i].style.left == '-300px'){
-      pos[i] = 2700;
+    if (items[i].style.left == '-250px'){
+      pos[i] = 2500;
     }
     pos[i]--;
     items[i].style.left = pos[i] + 'px';

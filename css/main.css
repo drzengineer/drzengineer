@@ -217,13 +217,13 @@ body {
   }
 
   #about .text {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 }
 
 @media (min-width: 992px){
   #about .text {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 }
 
@@ -240,7 +240,7 @@ body {
   }
 
   #about .text {
-    font-size: 1.1vw;
+    font-size: 1vw;
     text-align: left;
     width: 60vw;
     margin-left: 3em;
@@ -251,8 +251,9 @@ body {
 /*/////////////////////// TECH //////////////////////////*/
 
 #tech {
-  background-color: #f4f4f4;
+  background-color: #f7f7f7;
   padding: 3em 0em 3em;
+  border-top: 2px solid #f4f4f4;
   border-bottom: 1px solid #ddd;
 }
 
@@ -273,7 +274,7 @@ body {
 }
 
 .carousel {
-  height: 200px;
+  height: 150px;
   width: 100%;
   position: relative;
   margin-top: 3em;
@@ -281,8 +282,8 @@ body {
 }
 
 .carousel_item {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   position: absolute;
 }
 
