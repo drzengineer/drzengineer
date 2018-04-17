@@ -1,7 +1,7 @@
 var navScroll = document.getElementsByClassName('nav_scroll')
 
 for(var i = 0; i < navScroll.length; i++){
-  navScroll[i].addEventListener('click', scroll_to, false);
+  navScroll[i].addEventListener('click', scroll_to);
 }
 
 function scroll_to(e){
