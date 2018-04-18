@@ -40,10 +40,7 @@ function Circle(x, y, dx, dy, radius){
   this.draw = function(){
     c.beginPath();
     c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-    c.lineWidth = 3;
-    c.strokeStyle = 'rgba(0,0,0,.1)';
-    c.stroke();
-    c.fillStyle = 'rgba(0,0,0,.08)';
+    c.fillStyle = 'rgba(0,0,0,.07)';
     c.fill();
   }
 
