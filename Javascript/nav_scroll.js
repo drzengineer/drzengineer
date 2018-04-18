@@ -1,47 +1,16 @@
-var navScroll = document.getElementsByClassName('nav_scroll')
+$('a[href^="#"]').on('click', function(event) {
 
-for(var i = 0; i < navScroll.length; i++){
-  navScroll[i].addEventListener('click', scroll_to);
-}
+    var target = $(this.getAttribute('href'));
 
-function scroll_to(e){
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top - 70
+        }, 1500);
+    }
 
-  var element = '';
-
-  switch (e.target.id) {
-    case 'logo_nav':
-      element = document.getElementById('intro');
-      break;
-    case 'about_nav':
-      element = document.getElementById('about');
-      break;
-    case 'tech_nav':
-      element = document.getElementById('tech');
-      break;
-    case 'projects_nav':
-      element = document.getElementById('projects');
-      break;
-    case 'contact_nav':
-      element = document.getElementById('contact');
-      break;
-    case 'arrow':
-      element = document.getElementById('about');
-      break;
-    default:
-      alert('someone probably changed id names');
-  }
-
-  element = element.getBoundingClientRect();
-
-  var scroll = element.top - 70;
-
-  window.scrollBy({
-    top: scroll,
-    behavior: 'smooth'
-  });
-
-  resetMenu();
-}
+    resetMenu();
+});
 
 var navToggle = false;
 

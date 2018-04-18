@@ -3,6 +3,7 @@ var canvas = document.querySelector('canvas');
 canvas.width = innerWidth;
 canvas.height = innerHeight;
 var bubbleScreenRatio = innerWidth / 30;
+if (innerWidth < 576) bubbleScreenRatio = 0;
 
 var c = canvas.getContext('2d');
 
@@ -23,6 +24,7 @@ window.addEventListener('resize', function (){
   canvas.width = innerWidth;
   canvas.height = innerHeight;
   bubbleScreenRatio = innerWidth / 30;
+  if (innerWidth < 576) bubbleScreenRatio = 0;
 
   init();
 })

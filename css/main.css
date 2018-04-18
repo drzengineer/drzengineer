@@ -41,10 +41,12 @@ body {
   padding: 0 25px;
   cursor: pointer;
   transition: color .5s ease;
+  color: white;
 }
 
 .nav_item:hover{
   color: cyan;
+  text-decoration: none;
 }
 
 #nav_button {
@@ -52,11 +54,13 @@ body {
   display: none;
 }
 
+#logo_anchor {
+  margin-left: 20%;
+}
+
 #logo_nav {
   width: 44px;
   height: 50px;
-  cursor: pointer;
-  margin-left: 20%;
 }
 
 @media (max-width: 992px) {
@@ -71,6 +75,10 @@ body {
 
   #nav_button {
     display: block;
+  }
+
+  #logo_anchor {
+    margin-left: 25px;
   }
 
   #logo_nav {
@@ -133,7 +141,6 @@ body {
 
 #arrow {
   width: 40px;
-  cursor: pointer;
   margin-bottom: 4em;
 }
 
