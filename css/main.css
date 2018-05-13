@@ -2,7 +2,7 @@ body {
   min-width: 320px;
   background-attachment: fixed;
   background-position: center;
-  background-image: url("../images/tealBlur.jpg");
+  background-image: url("../images/ocean.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -78,10 +78,6 @@ body {
   }
 
   #logo_anchor {
-    margin-left: 25px;
-  }
-
-  #logo_nav {
     margin-left: 25px;
   }
 
@@ -327,6 +323,54 @@ canvas {
   }
 }
 
+/*/////////////////////// PROJECTS ///////////////////////*/
+
+#projects {
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/deepsea.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em;
+  text-align: center;
+}
+
+#projects h2 {
+  margin: auto;
+  border-bottom: 2px solid #222;
+  padding-bottom: .7em;
+  width: 15%;
+}
+
+.showcase {
+  height: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.project{
+  margin: auto 2rem;
+  width: 250px;
+  height: 500px;
+  border: 5px solid #222;
+  background-color: #444;
+  opacity: 0.5;
+  -webkit-backface-visibility: hidden;
+  transition: transform .5s;
+  transform: skewX(-5deg);
+  font-family: 'Righteous', sans-serif;
+  font-size: 10em;
+  color: #222;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project:hover {
+  transform: scale(1.2,1.2) skewX(-5deg);
+}
+
 /*/////////////////////// FOOTER ///////////////////////*/
 
 #contact {
@@ -335,7 +379,6 @@ canvas {
   text-align: center;
   cursor: default;
   padding: 5em 0em 2em;
-  margin-top: 10em;
 }
 
 .icons {
