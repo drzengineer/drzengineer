@@ -2,7 +2,7 @@
 
 Full-stack developer with 5+ years of experience building complete applications from frontend to database. I work across modern web technologies (React, TypeScript, Node.js, MongoDB) and enterprise systems (C#, .NET, SQL Server) to deliver solutions that solve real business problems.
 
-📍 Brentwood, NY &nbsp;|&nbsp; 🌐 [davidr.io](https://davidr.io) &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/drzengineer) &nbsp;|&nbsp; 📧 hi@davidr.io
+🌐 [davidr.io](https://davidr.io) &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/drzengineer) &nbsp;|&nbsp; 📧 hi@davidr.io
 
 ---
 
