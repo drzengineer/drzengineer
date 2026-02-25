@@ -9,7 +9,7 @@ Full-stack developer with 5+ years of experience building complete applications 
 ## Tech Stack
 
 **Frontend**
-React · TypeScript · JavaScript · Tailwind CSS · HTML/CSS · WPF
+React · TypeScript · JavaScript · Tailwind CSS · HTML/CSS
 
 **Backend**
 Node.js · Express · TypeScript · C# (.NET) · Python · RESTful APIs
