@@ -38,7 +38,7 @@ Production MERN stack web application built with TypeScript end-to-end.
 
 ## Experience Highlights
 
-- $80K annual cost savings via medical billing application (FONAR Corporation)
+- $80K annual cost savings via medical billing application
 - 75% process acceleration through billing workflow automation
 - 40% productivity increase via ETL pipeline engineering
 - 5 hours daily time reduction through database optimization
