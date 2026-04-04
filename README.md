@@ -28,7 +28,7 @@ Software developer with 5+ years building full-stack applications, APIs, and dat
 
 ### World Baseball Classic Dashboard
 
-**Full-stack data engineering + AI RAG platform | 14-day production build**
+**Full-stack data engineering + AI RAG platform
 
 End-to-end data pipeline and dashboard for WBC historical tournament data, built following industry standard data engineering practices. Complete ELT pipeline, SQL transformations, orchestration, vector embeddings, RAG natural language query interface, and full-stack frontend.
 
