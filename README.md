@@ -52,9 +52,6 @@ End-to-end data pipeline and dashboard for WBC historical tournament data, built
 - 75% process acceleration through billing workflow automation
 - 40% productivity increase via ETL pipeline engineering
 - 5 hours daily time reduction through database optimization
-- 16,000+ vector embeddings generated in < 1 minute on CPU
-- 50 automated data tests validating all pipeline outputs
-- 99.9% pipeline reliability with fixed baseline AWS infrastructure
 
 ---
 
