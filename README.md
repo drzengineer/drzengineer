@@ -10,32 +10,39 @@ Software developer with 5+ years building full-stack applications, APIs, and dat
 
 **Languages:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 
-**Databases:** ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+**Databases:** ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat&logo=postgresql&logoColor=white) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-**Backend:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat&logo=postman&logoColor=white)
+**Backend & Data:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat&logo=postman&logoColor=white) ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white) ![Dagster](https://img.shields.io/badge/Dagster-FF6B6B?style=flat&logo=dagster&logoColor=white)
 
-**Frontend:** ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+**Frontend:** ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=flat&logo=svelte&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
+**AI / ML:** ![RAG](https://img.shields.io/badge/RAG-00ADD8?style=flat&logo=ai&logoColor=white) ![Vector Embeddings](https://img.shields.io/badge/Vector%20Embeddings-4169E1?style=flat&logo=postgresql&logoColor=white) ![Semantic Search](https://img.shields.io/badge/Semantic%20Search-220052?style=flat&logo=huggingface&logoColor=white)
 
 **Testing:** ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white) ![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-E33332?style=flat&logo=testinglibrary&logoColor=white)
 
-**Cloud & DevOps:** ![AWS Amplify](https://img.shields.io/badge/AWS%20Amplify-FF9900?style=flat&logo=awsamplify&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+**Cloud & DevOps:** ![AWS Amplify](https://img.shields.io/badge/AWS%20Amplify-FF9900?style=flat&logo=awsamplify&logoColor=white) ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ---
 
 ## Featured Project
 
-### Full-Stack Notes Application
+### World Baseball Classic Dashboard
 
-Full-stack Next.js 16 App Router application with a three-layer test suite and GitHub Actions CI pipeline.
+**Full-stack data engineering + AI RAG platform | 14-day production build**
 
-- Architected in TypeScript using Next.js 16 App Router with server-side rendering, serverless API routes, and Mongoose schema validation against MongoDB Atlas
-- Implemented a three-layer test strategy covering unit, integration, and E2E tests; integration tests run against a live isolated MongoDB Atlas test database via `.env.test`
-- Authored a Playwright E2E suite covering 33+ user flows across Chromium, Firefox, and WebKit with UUID isolation and parallel safety
-- Deployed on AWS Amplify; GitHub Actions CI pipeline runs the full Playwright suite on every push against a production build (`npm run build && npm run start`)
+End-to-end data pipeline and dashboard for WBC historical tournament data, built following industry standard data engineering practices. Complete ELT pipeline, SQL transformations, orchestration, vector embeddings, RAG natural language query interface, and full-stack frontend.
 
-**Stack:** TypeScript · Next.js 16 · React · MongoDB Atlas · Mongoose · Playwright · Jest · Tailwind CSS · AWS Amplify · GitHub Actions
+- **ELT Architecture**: Python ingestion pipeline polling MLB Stats API, loading raw JSON directly into PostgreSQL; all transforms executed inside database via dbt
+- **Three schema database design**: Separated raw, analytics, and vector layers in Supabase PostgreSQL with pgvector vector indexing
+- **Orchestration**: Dagster pipeline with software-defined assets, native dbt integration, and data lineage
+- **RAG Pipeline**: Zero-dependency implementation - local vector embeddings, semantic similarity search, and streaming natural language responses
+- **Contextual question rewriting**: Pre-search question contextualization that resolves pronouns and maintains conversation context
+- **SvelteKit 5 frontend**: Full dashboard with tournament bracket, standings, game browser, player leaderboards, player profiles, and AI chat interface
+- **Production deployment**: Dockerized pipeline hosted on AWS EC2, SvelteKit frontend on Vercel, full CI/CD with automated data testing
 
-🔗 [Live Demo](https://notes.davidr.io) | [Source](https://github.com/drzengineer/NotesApp)
+**Stack:** Python · PostgreSQL · Supabase · pgvector · dbt · Dagster · SvelteKit · Tailwind CSS v4 · Docker · AWS EC2 · GitHub Actions
+
+🔗 [Live Demo](https://wbc.davidr.io) | [Source](https://github.com/drzengineer/wbc-dashboard)
 
 ---
 
@@ -45,6 +52,9 @@ Full-stack Next.js 16 App Router application with a three-layer test suite and G
 - 75% process acceleration through billing workflow automation
 - 40% productivity increase via ETL pipeline engineering
 - 5 hours daily time reduction through database optimization
+- 16,000+ vector embeddings generated in < 1 minute on CPU
+- 50 automated data tests validating all pipeline outputs
+- 99.9% pipeline reliability with fixed baseline AWS infrastructure
 
 ---
 
