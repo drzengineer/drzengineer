@@ -1,6 +1,8 @@
 # David Rodriguez — Software Developer
 
-Software developer with 5+ years building full-stack applications, APIs, and data pipelines that eliminate manual work and scale reliably. Delivered $80K in annual cost savings, 40% productivity gains, and near-zero failure rates across healthcare, aerospace, and real estate.
+Software developer with 5+ years building full-stack applications, APIs, and data pipelines  
+that eliminate manual work and scale reliably. Delivered $80K annual cost savings,  
+40% productivity gains, near-zero failure rates across healthcare, aerospace, real estate.
 
 🌐 [davidr.io](https://davidr.io) | 💼 [LinkedIn](https://linkedin.com/in/drzengineer) | 📧 [hi@davidr.io](mailto:hi@davidr.io)
 
