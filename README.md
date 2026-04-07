@@ -28,12 +28,12 @@ Software developer with 5+ years building full-stack applications, APIs, and dat
 
 ### World Baseball Classic Dashboard
 
-**Full-stack data engineering + AI RAG platform
+**Full-stack data engineering + AI RAG platform**
 
 End-to-end data pipeline and dashboard for WBC historical tournament data, built following industry standard data engineering practices. Complete ELT pipeline, SQL transformations, orchestration, vector embeddings, RAG natural language query interface, and full-stack frontend.
 
 - **ELT Architecture**: Python ingestion pipeline polling MLB Stats API, loading raw JSON directly into PostgreSQL; all transforms executed inside database via dbt
-- **Three schema database design**: Separated raw, analytics, and vector layers in Supabase PostgreSQL with pgvector vector indexing
+- **5-Layer Database Design**: Immutable raw landing zone, staging views, intermediate business logic, dimensional analytics marts, and isolated vector layer with pgvector HNSW indexing on Supabase PostgreSQL
 - **Orchestration**: Dagster pipeline with software-defined assets, native dbt integration, and data lineage
 - **RAG Pipeline**: Zero-dependency implementation - local vector embeddings, semantic similarity search, and streaming natural language responses
 - **Contextual question rewriting**: Pre-search question contextualization that resolves pronouns and maintains conversation context
