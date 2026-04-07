@@ -30,15 +30,24 @@ Software developer with 5+ years building full-stack applications, APIs, and dat
 
 **Full-stack data engineering + AI RAG platform**
 
-End-to-end data pipeline and dashboard for WBC historical tournament data, built following industry standard data engineering practices. Complete ELT pipeline, SQL transformations, orchestration, vector embeddings, RAG natural language query interface, and full-stack frontend.
+End-to-end data pipeline and dashboard for WBC historical tournament data, built following
+industry standard data engineering practices. Complete ELT pipeline, SQL transformations,
+orchestration, vector embeddings, RAG natural language query interface, full-stack frontend.
 
-- **ELT Architecture**: Python ingestion pipeline polling MLB Stats API, loading raw JSON directly into PostgreSQL; all transforms executed inside database via dbt
-- **5-Layer Database Design**: Immutable raw landing zone, staging views, intermediate business logic, dimensional analytics marts, and isolated vector layer with pgvector HNSW indexing on Supabase PostgreSQL
-- **Orchestration**: Dagster pipeline with software-defined assets, native dbt integration, and data lineage
-- **RAG Pipeline**: Zero-dependency implementation - local vector embeddings, semantic similarity search, and streaming natural language responses
-- **Contextual question rewriting**: Pre-search question contextualization that resolves pronouns and maintains conversation context
-- **SvelteKit 5 frontend**: Full dashboard with tournament bracket, standings, game browser, player leaderboards, player profiles, and AI chat interface
-- **Production deployment**: Dockerized pipeline hosted on AWS EC2, SvelteKit frontend on Vercel, full CI/CD with automated data testing
+- **ELT Architecture**: Python ingestion pipeline polling MLB Stats API, loading raw JSON
+  directly into PostgreSQL; all transforms executed inside database via dbt
+- **Database Design**: 5-layer architecture on Supabase PostgreSQL with raw landing zone,
+  staging views, intermediate logic, analytics marts, and isolated pgvector HNSW indexing
+- **Orchestration**: Dagster pipeline with software-defined assets, native dbt integration,
+  and complete end-to-end data lineage tracking
+- **RAG Pipeline**: Zero-dependency implementation with local vector embeddings, semantic
+  similarity search, and streaming natural language responses
+- **Context Rewriting**: Pre-search query contextualization that correctly resolves pronouns
+  and maintains conversation state across follow up questions
+- **SvelteKit Frontend**: Full dashboard with tournament brackets, standings, game browser,
+  player leaderboards, player profiles, and integrated AI chat interface
+- **Production Deployment**: Dockerized pipeline hosted on AWS EC2, SvelteKit frontend on
+  Vercel, full CI/CD pipeline with automated data validation testing
 
 **Stack:** Python · PostgreSQL · Supabase · pgvector · dbt · Dagster · SvelteKit · Tailwind CSS v4 · Docker · AWS EC2 · GitHub Actions
 
